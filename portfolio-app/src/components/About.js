@@ -10,7 +10,7 @@ export default function About() {
             <br className="hidden lg:inline-block" />
             Creativity and design allow me to build user-friendly apps.
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-8 text-white leading-relaxed">
             Full -Stack Web Developer with a strong background of front-end and
             back-end languages. AWS certified Solutions Architect to help
             clients build and maintain scalable cloud services.
@@ -18,13 +18,13 @@ export default function About() {
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+              className="inline-flex text-white bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 border-0 py-2 px-6  rounded text-lg"
             >
               Lets Collab!
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              className="ml-4 inline-flex text-white bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 border-0 py-2 px-6  rounded text-lg"
             >
               See My Projects
             </a>
