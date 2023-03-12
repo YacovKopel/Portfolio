@@ -1,9 +1,19 @@
-export const projects = [
+export const projectOne = [
+  {
+    title: "Applied",
+    subtitle: "Full-Stack MERN App",
+    description:
+      "MERN app that allows users to store and track all their job applications.",
+    image: "./Applied.jpeg",
+    link: "https://fathomless-brushlands-43089.herokuapp.com",
+  },
+];
+  export const projects = [
   {
     title: "OneStopShop",
     subtitle: "Full-Stack App",
     description:
-      "Full-Stack app using Node.js and Express to create RESTful API, Handlebars for Templating engine, and MySQL and Sequelize ORM for the Database",
+      "Full-Stack app using Node.js and Express to create a marketplace to sell and buy items. Built with RESTful API, Handlebars for Templating engine, and MySQL and Sequelize ORM for the Database",
     image: "./home register.jpeg",
     link: "http://still-mesa-87070.herokuapp.com/",
   },
@@ -11,7 +21,7 @@ export const projects = [
     title: "FlexFly",
     subtitle: "Interactive Front-end App",
     description:
-      "App that allows users to find cheap flights during selected dates and suggested events during trip duration. App used Bootstrap and Tailwind for CSS framework as well as Server-side APIs,",
+      "Travel app that allows users to find cheap flights during selected dates and suggested events during trip duration. App uses Bootstrap and Tailwind for CSS framework as well as Server-side APIs.",
     image: "./flexfly.jpeg",
     link: " https://yacovkopel.github.io/FlexFly/",
   },
@@ -20,7 +30,7 @@ export const projects = [
     subtitle: "HTML CSS & JavaScript",
     description:
       "App allows users to select certain parameters to create a unique password.",
-    image: ".screenshot.jpeg.jpeg",
+    image: "./passwordGenerator.jpeg",
     link: "https://github.com/YacovKopel/Pa55w0rdMAker",
   },
   {

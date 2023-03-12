@@ -6,14 +6,21 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi, I'm Yacov.
+            Hi!  I'm Yacov.
             <br className="hidden lg:inline-block" />
-            Creativity and design allow me to build user-friendly apps.
+            Creativity, technical expertise, and passion
+            for problem-solving to create seamless and scalable
+            solutions that drive business success!
           </h1>
           <p className="mb-8 text-white leading-relaxed">
-            Full -Stack Web Developer with a strong background of front-end and
-            back-end languages. AWS certified Solutions Architect to help
-            clients build and maintain scalable cloud services.
+            I'm a full-stack developer and AWS certified Solutions Architect
+            with expertise in both front-end, back-end development and cloud
+            computing. With my knowledge of multiple programming languages and
+            frameworks, I can seamlessly integrate technologies to create robust
+            and scalable end-to-end solutions. I thrive on delivering
+            high-quality code optimized for performance and user experience that
+            meets the unique needs of diverse clients. Let me help you build
+            cutting-edge applications that exceed your expectations.
           </p>
           <div className="flex justify-center">
             <a
