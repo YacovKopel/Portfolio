@@ -54,6 +54,7 @@ export default function Contact() {
         <form
           netlify
           name="test"
+          data-netlify="true"
           onSubmit={handleSubmit}
           className="lg:w-2/3 text-white md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
