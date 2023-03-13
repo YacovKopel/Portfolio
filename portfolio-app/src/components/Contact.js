@@ -20,7 +20,7 @@ export default function Contact() {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "test", name, email, message }),
+      body: encode({ "form-name": "contactForm", name, email, message }),
     })
       .then(() => alert("Message sent!"))
       .catch((error) => alert(error));
@@ -52,7 +52,8 @@ export default function Contact() {
               </a>           
         </div>
         <form
-          name="test"
+          method="post"
+          name="contactForm"
           data-netlify="true"
           onSubmit={handleSubmit}
           className="lg:w-2/3 text-white md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
