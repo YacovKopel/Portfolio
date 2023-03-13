@@ -52,7 +52,6 @@ export default function Contact() {
               </a>           
         </div>
         <form
-          netlify
           name="test"
           data-netlify="true"
           onSubmit={handleSubmit}
