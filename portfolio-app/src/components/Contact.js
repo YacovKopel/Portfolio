@@ -42,6 +42,7 @@ export default function Contact() {
               </h2>
               <FaPhone style={{fontSize: '50px'}}/>
               <p className="leading-relaxed text-white"> (818)-689-0424</p>
+              <br></br>
               <a href="https://www.linkedin.com/in/yacov-kopel/">
                 <i style={{fontSize: '50px'}} class="devicon-linkedin-plain"></i>
               </a>
@@ -52,7 +53,7 @@ export default function Contact() {
               </a>           
         </div>
         <form
-          method="post"
+          method="POST"
           name="contactForm"
           data-netlify="true"
           onSubmit={handleSubmit}
@@ -62,7 +63,7 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Looking for a full-time position where I can display both my
+            Looking for a full-time position where I can execute both my
             full-stack skills and my Cloud computing design.
           </p>
           <div className="relative mb-4">
