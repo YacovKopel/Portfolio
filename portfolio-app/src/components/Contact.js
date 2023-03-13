@@ -46,8 +46,7 @@ export default function Contact() {
               <a href="https://www.linkedin.com/in/yacov-kopel/">
                 <i style={{fontSize: '50px'}} class="devicon-linkedin-plain"></i>
               </a>
-              <br>  
-              </br>
+              <br></br>
               <a href="https://github.com/YacovKopel">
               <i style={{fontSize: '50px'}} class="devicon-github-original"></i>
               </a>           
@@ -59,6 +58,8 @@ export default function Contact() {
           onSubmit={handleSubmit}
           className="lg:w-2/3 text-white md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
+          <input type="hidden" name="form-name" value="contactForm" />
+
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
