@@ -8,12 +8,13 @@ export const projectOne = [
     link: "https://fathomless-brushlands-43089.herokuapp.com",
   },
 ];
-  export const projects = [
+
+export const projects = [
   {
     title: "OneStopShop",
     subtitle: "Full-Stack App",
     description:
-      "Full-Stack app using Node.js and Express to create a marketplace to sell and buy items. Built with RESTful API, Handlebars for Templating engine, and MySQL and Sequelize ORM for the Database",
+      "Full-Stack app using Node.js and Express to create RESTful API, Handlebars for Templating engine, and MySQL and Sequelize ORM for the Database",
     image: "./home register.jpeg",
     link: "http://still-mesa-87070.herokuapp.com/",
   },
@@ -21,17 +22,17 @@ export const projectOne = [
     title: "FlexFly",
     subtitle: "Interactive Front-end App",
     description:
-      "Travel app that allows users to find cheap flights during selected dates and suggested events during trip duration. App uses Bootstrap and Tailwind for CSS framework as well as Server-side APIs.",
+      "App that allows users to find cheap flights during selected dates and suggested events during trip duration. App used Bootstrap and Tailwind for CSS framework as well as Server-side APIs,",
     image: "./flexfly.jpeg",
     link: " https://yacovkopel.github.io/FlexFly/",
   },
   {
-    title: "Password Generator",
-    subtitle: "HTML CSS & JavaScript",
+    title: "LinkedIn Clone",
+    subtitle: "REACT APP cloning LinkedIn webpage",
     description:
-      "App allows users to select certain parameters to create a unique password.",
-    image: "./passwordGenerator.jpeg",
-    link: "https://github.com/YacovKopel/Pa55w0rdMAker",
+      "React App using Redux, Material UI, Firebase, and News API to recreate a basic clone of the LinkedIn webpage.",
+    image: "./linkedin-clone.png",
+    link: "https://linkedin-clone-3-32f8d.web.app",
   },
   {
     title: "Weather4U",
@@ -41,8 +42,33 @@ export const projectOne = [
     image: "./Weather4U.jpeg",
     link: "https://github.com/YacovKopel/Weather4U",
   },
+  // {
+  //   title: "Password Generator",
+  //   subtitle: "HTML CSS & JavaScript",
+  //   description:
+  //     "App allows users to select certain parameters to create a unique password.",
+  //   image: ".screenshot.jpeg.jpeg",
+  //   link: "https://github.com/YacovKopel/Pa55w0rdMAker",
+  // },
+
 ];
 
+export const reactNativeProject=[
+  {
+    title: "DentaTIP",
+    subtitle: "React Native App",
+    description: "A dental app that enables users to tip staff at specific dental offices using FireBase, Tailwind CSS, and React Native.",
+    video: "./DTipvid.mp4", // Add the URL to your video here
+    link: "https://expo.dev/@ykopel/Dtip?serviceType=classic&distribution=expo-go",
+  },
+  {
+    title: "Luber",
+    subtitle: "React Native App",
+    description: "This React Native app is a ride-sharing clone, inspired by popular services like Uber and Lyft, incorporating technologies like React Native, Tailwind CSS, Redux, and Google Maps APIs for location-based ride selection and pricing information.",
+    video: "./LuberVid.mp4", // Add the URL to your video here
+    link: "https://github.com/YacovKopel/Luber-pro",
+  },
+]
 export const skills = [
   { name: "JavaScript", img: "devicon-javascript-plain" },
   { name: "ReactJS", img: "devicon-react-plain" },

@@ -20,7 +20,7 @@ export default function Skills() {
             <div key={skill} className="p-2 sm:w-1/3 w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
                 <span className="title-font font-medium text-white">
-                  {skill.name} <i class={skill.img}></i>
+                  {skill.name} <i className={skill.img}></i>
                 </span>
               </div>
             </div>

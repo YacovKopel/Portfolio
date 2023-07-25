@@ -44,11 +44,11 @@ export default function Contact() {
               <p className="leading-relaxed text-white"> (818)-689-0424</p>
               <br></br>
               <a href="https://www.linkedin.com/in/yacov-kopel/">
-                <i style={{fontSize: '50px'}} class="devicon-linkedin-plain"></i>
+                <i style={{fontSize: '50px'}} className="devicon-linkedin-plain"></i>
               </a>
               <br></br>
               <a href="https://github.com/YacovKopel">
-              <i style={{fontSize: '50px'}} class="devicon-github-original"></i>
+              <i style={{fontSize: '50px'}} className="devicon-github-original"></i>
               </a>           
         </div>
         <form
