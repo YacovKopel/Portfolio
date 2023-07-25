@@ -1,7 +1,37 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import { projectOne, projects, reactNativeProject } from "../data";
 
 export default function Projects() {
+  const videoRefs = useRef([]);
+
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.2,
+    };
+
+    const callback = (entries) => {
+      entries.forEach((entry) => {
+        const video = entry.target;
+        if (entry.isIntersecting) {
+          video.play();
+          video.loop = true;
+        } else {
+          video.pause();
+        }
+      });
+    };
+
+
+    const observer = new IntersectionObserver(callback, options);
+    videoRefs.current.forEach((video) => observer.observe(video));
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   return (
     <section
       id="projects"
@@ -78,14 +108,15 @@ export default function Projects() {
               className="sm:w-1/3 max-w-4xl p-4"
             >
               <div className="relative">
-                <video
-                  controls
-                  className="inset-0 h-full w-full object-cover object-center"
-                  autoPlay
-                >
-                  <source src={project.video} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+              <video
+                controls
+                ref={(ref) => videoRefs.current.push(ref)}
+                className="inset-0 h-full w-full object-cover object-center"
+                autoPlay
+              >
+                <source src={project.video} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="px-8 py-10 relative z-10 h-full w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
