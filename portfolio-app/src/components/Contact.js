@@ -32,9 +32,9 @@ export default function Contact() {
         <div className="lg:w-1/3 md:w-1/2 sm:mr-10 p-10 flex flex-col justify-evenly items-center relative">
               <h2 className="title-font font-semibold text-white tracking-widest text-2x1 ">
                 EMAIL</h2>
-              <a className="leading-relaxed">
+              <p className="leading-relaxed">
               <FaEnvelopeOpen style={{fontSize: '50px'}}/>
-              </a>
+              </p>
               <p className="leading-relaxed" >Yacovkopel94@gmail.com</p>
 
               <h2 className="title-font font-semibold  tracking-widest text-2x1 mt-4">
