@@ -42,15 +42,6 @@ export const projects = [
     image: "./Weather4U.jpeg",
     link: "https://github.com/YacovKopel/Weather4U",
   },
-  // {
-  //   title: "Password Generator",
-  //   subtitle: "HTML CSS & JavaScript",
-  //   description:
-  //     "App allows users to select certain parameters to create a unique password.",
-  //   image: ".screenshot.jpeg.jpeg",
-  //   link: "https://github.com/YacovKopel/Pa55w0rdMAker",
-  // },
-
 ];
 
 export const reactNativeProject=[
@@ -69,6 +60,7 @@ export const reactNativeProject=[
     link: "https://github.com/YacovKopel/Luber-pro",
   },
 ]
+
 export const skills = [
   { name: "JavaScript", img: "devicon-javascript-plain" },
   { name: "ReactJS", img: "devicon-react-plain" },
